@@ -53,7 +53,7 @@ public class loginOmisell {
 		// locator
 		// css: tagname[attribute='value']
 		// path: //tagname[@attribute='value']
-
+ //Xpath = //a[contains(text(),'thủ thuật CSS')]
 		// selectCountry =
 		// driver.findElement(By.xpath("//span[contains(.,'Thailand')]")).click();
 		// driver.findElement(By.xpath("//span[contains(.,'Thailand')]")).click();
@@ -71,14 +71,14 @@ public class loginOmisell {
 		 * driver.findElement(By.xpath("//button[@type='submit']")).click();
 		 * Thread.sleep(4000);
 		 */
-		
+
 		// input email
 		driver.findElement(emailTextBox).click();
 		driver.findElement(emailTextBox).sendKeys("dinhlt@boxme.asia");
-		//input pass
+		// input pass
 		driver.findElement(passwordTextBox).click();
 		driver.findElement(passwordTextBox).sendKeys("123456a@");
-		//click Login
+		// click Login
 		driver.findElement(loginButton).click();
 	}
 

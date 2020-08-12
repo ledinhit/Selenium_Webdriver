@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="LoginOMS.loginOmisell">
+      <class name="Demo.TC_04_ClickOnImage">
         <methods>
-          <include name="TC_02_LoginCorrect"/>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="TC_01_clickOnImage"/>
+          <include name="beforeClass"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- LoginOMS.loginOmisell -->
+      </class> <!-- Demo.TC_04_ClickOnImage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
